@@ -1,5 +1,5 @@
 import Router from 'koa-router'
-import { getTasks, getTask } from '../controllers/tasks.controller.js'
+import { getTask, getTasks } from '../controllers/tasks.controller.js'
 
 const router = new Router({ prefix: '/tasks' })
 
